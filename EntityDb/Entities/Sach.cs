@@ -13,7 +13,7 @@ namespace EntityDb.Entities
         public string NhaXuatBan { get; set; }
         public string TriGia { get; set; }
         public string NgayNhap { get; set; }
-        public PhieuMuaSach PhieuMuonsach { get; set; }
+        public PhieuMuonSach PhieuMuonsach { get; set; }
         public int? MaPhieuMuon { get; set; }
     }
 }

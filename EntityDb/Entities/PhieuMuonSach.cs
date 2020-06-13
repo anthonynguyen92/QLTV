@@ -2,9 +2,9 @@
 
 namespace EntityDb.Entities
 {
-    public class PhieuMuaSach
+    public class PhieuMuonSach
     {
-        public int MaPhieuMua { get; set; }
+        public int MaPhieuMuon { get; set; }
         public string NgayMuon { get; set; }
         public string NgayTra { get; set; }
         public List<Sach> Sach{ get; set; }

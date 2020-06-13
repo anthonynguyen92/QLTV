@@ -12,5 +12,6 @@ namespace EntityDb.Entities
         public int MaDocGia { get; set; }
         public string MaNhanVien { get; set; }
         public List<NhanVien> nhanViens { get; set; }
+        public DocGia DocGia { get; set; }
     }
 }

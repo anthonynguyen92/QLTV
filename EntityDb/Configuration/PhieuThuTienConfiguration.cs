@@ -12,6 +12,7 @@ namespace EntityDb.Configuration
         public void Configure(EntityTypeBuilder<PhieuThuTien> builder)
         {
             builder.HasKey(p => p.MaPhieuThuTien);
+            builder.HasOne(p => p.DocGia).WithMany(x => x.PhieuThuTien).HasForeignKey(k => k.MaDocGia);
         }
     }
 }

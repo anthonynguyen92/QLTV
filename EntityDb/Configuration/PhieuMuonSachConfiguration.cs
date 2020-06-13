@@ -7,11 +7,11 @@ using System.Text;
 
 namespace EntityDb.Configuration
 {
-    public class PhieuMuaSachConfiguration : IEntityTypeConfiguration<PhieuMuaSach>
+    public class PhieuMuonSachConfiguration : IEntityTypeConfiguration<PhieuMuonSach>
     {
-        public void Configure(EntityTypeBuilder<PhieuMuaSach> builder)
+        public void Configure(EntityTypeBuilder<PhieuMuonSach> builder)
         {
-            builder.HasKey(p => p.MaPhieuMua);
+            builder.HasKey(p => p.MaPhieuMuon);
             builder.HasMany(p => p.Sach).WithOne(s => s.PhieuMuonsach).HasForeignKey(p => p.MaPhieuMuon);
         }
     }

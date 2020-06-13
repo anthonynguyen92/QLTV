@@ -3,15 +3,15 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EntityDb.Migrations
 {
-    public partial class initialDb : Migration
+    public partial class initialDatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "PhieuMuaSach",
+                name: "PhieuMuonSach",
                 columns: table => new
                 {
-                    MaPhieuMua = table.Column<int>(nullable: false)
+                    MaPhieuMuon = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NgayMuon = table.Column<string>(nullable: true),
                     NgayTra = table.Column<string>(nullable: true),
@@ -20,23 +20,7 @@ namespace EntityDb.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PhieuMuaSach", x => x.MaPhieuMua);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "PhieuThuTien",
-                columns: table => new
-                {
-                    MaPhieuThuTien = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    SoTienNo = table.Column<int>(nullable: false),
-                    SoTienThu = table.Column<int>(nullable: false),
-                    MaDocGia = table.Column<int>(nullable: false),
-                    MaNhanVien = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_PhieuThuTien", x => x.MaPhieuThuTien);
+                    table.PrimaryKey("PK_PhieuMuonSach", x => x.MaPhieuMuon);
                 });
 
             migrationBuilder.CreateTable(
@@ -58,10 +42,10 @@ namespace EntityDb.Migrations
                 {
                     table.PrimaryKey("PK_DocGia", x => x.MaDocGia);
                     table.ForeignKey(
-                        name: "FK_DocGia_PhieuMuaSach_MaPhieuMuon",
+                        name: "FK_DocGia_PhieuMuonSach_MaPhieuMuon",
                         column: x => x.MaPhieuMuon,
-                        principalTable: "PhieuMuaSach",
-                        principalColumn: "MaPhieuMua",
+                        principalTable: "PhieuMuonSach",
+                        principalColumn: "MaPhieuMuon",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -82,11 +66,33 @@ namespace EntityDb.Migrations
                 {
                     table.PrimaryKey("PK_Sach", x => x.MaSach);
                     table.ForeignKey(
-                        name: "FK_Sach_PhieuMuaSach_MaPhieuMuon",
+                        name: "FK_Sach_PhieuMuonSach_MaPhieuMuon",
                         column: x => x.MaPhieuMuon,
-                        principalTable: "PhieuMuaSach",
-                        principalColumn: "MaPhieuMua",
+                        principalTable: "PhieuMuonSach",
+                        principalColumn: "MaPhieuMuon",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PhieuThuTien",
+                columns: table => new
+                {
+                    MaPhieuThuTien = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    SoTienNo = table.Column<int>(nullable: false),
+                    SoTienThu = table.Column<int>(nullable: false),
+                    MaDocGia = table.Column<int>(nullable: false),
+                    MaNhanVien = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PhieuThuTien", x => x.MaPhieuThuTien);
+                    table.ForeignKey(
+                        name: "FK_PhieuThuTien_DocGia_MaDocGia",
+                        column: x => x.MaDocGia,
+                        principalTable: "DocGia",
+                        principalColumn: "MaDocGia",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -112,7 +118,7 @@ namespace EntityDb.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "BagCap",
+                name: "BangCap",
                 columns: table => new
                 {
                     MaBang = table.Column<string>(nullable: false),
@@ -121,9 +127,9 @@ namespace EntityDb.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BagCap", x => x.MaBang);
+                    table.PrimaryKey("PK_BangCap", x => x.MaBang);
                     table.ForeignKey(
-                        name: "FK_BagCap_NhanViens_NhanVienMaNhanVien",
+                        name: "FK_BangCap_NhanViens_NhanVienMaNhanVien",
                         column: x => x.NhanVienMaNhanVien,
                         principalTable: "NhanViens",
                         principalColumn: "MaNhanVien",
@@ -131,8 +137,8 @@ namespace EntityDb.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_BagCap_NhanVienMaNhanVien",
-                table: "BagCap",
+                name: "IX_BangCap_NhanVienMaNhanVien",
+                table: "BangCap",
                 column: "NhanVienMaNhanVien");
 
             migrationBuilder.CreateIndex(
@@ -146,6 +152,11 @@ namespace EntityDb.Migrations
                 column: "MaPhieuThuTien");
 
             migrationBuilder.CreateIndex(
+                name: "IX_PhieuThuTien_MaDocGia",
+                table: "PhieuThuTien",
+                column: "MaDocGia");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Sach_MaPhieuMuon",
                 table: "Sach",
                 column: "MaPhieuMuon");
@@ -154,10 +165,7 @@ namespace EntityDb.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "BagCap");
-
-            migrationBuilder.DropTable(
-                name: "DocGia");
+                name: "BangCap");
 
             migrationBuilder.DropTable(
                 name: "Sach");
@@ -166,10 +174,13 @@ namespace EntityDb.Migrations
                 name: "NhanViens");
 
             migrationBuilder.DropTable(
-                name: "PhieuMuaSach");
+                name: "PhieuThuTien");
 
             migrationBuilder.DropTable(
-                name: "PhieuThuTien");
+                name: "DocGia");
+
+            migrationBuilder.DropTable(
+                name: "PhieuMuonSach");
         }
     }
 }

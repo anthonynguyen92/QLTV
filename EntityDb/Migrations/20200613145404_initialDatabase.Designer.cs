@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityDb.Migrations
 {
     [DbContext(typeof(QLDBContext))]
-    [Migration("20200612082221_initialDb")]
-    partial class initialDb
+    [Migration("20200613145404_initialDatabase")]
+    partial class initialDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,7 +36,7 @@ namespace EntityDb.Migrations
 
                     b.HasIndex("NhanVienMaNhanVien");
 
-                    b.ToTable("BagCap");
+                    b.ToTable("BangCap");
                 });
 
             modelBuilder.Entity("EntityDb.Entities.DocGia", b =>
@@ -104,9 +104,9 @@ namespace EntityDb.Migrations
                     b.ToTable("NhanViens");
                 });
 
-            modelBuilder.Entity("EntityDb.Entities.PhieuMuaSach", b =>
+            modelBuilder.Entity("EntityDb.Entities.PhieuMuonSach", b =>
                 {
-                    b.Property<int>("MaPhieuMua")
+                    b.Property<int>("MaPhieuMuon")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -123,9 +123,9 @@ namespace EntityDb.Migrations
                     b.Property<string>("NgayTra")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("MaPhieuMua");
+                    b.HasKey("MaPhieuMuon");
 
-                    b.ToTable("PhieuMuaSach");
+                    b.ToTable("PhieuMuonSach");
                 });
 
             modelBuilder.Entity("EntityDb.Entities.PhieuThuTien", b =>
@@ -148,6 +148,8 @@ namespace EntityDb.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("MaPhieuThuTien");
+
+                    b.HasIndex("MaDocGia");
 
                     b.ToTable("PhieuThuTien");
                 });
@@ -194,7 +196,7 @@ namespace EntityDb.Migrations
 
             modelBuilder.Entity("EntityDb.Entities.DocGia", b =>
                 {
-                    b.HasOne("EntityDb.Entities.PhieuMuaSach", "phieuMuaSach")
+                    b.HasOne("EntityDb.Entities.PhieuMuonSach", "phieuMuaSach")
                         .WithMany("DocGia")
                         .HasForeignKey("MaPhieuMuon")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -210,9 +212,18 @@ namespace EntityDb.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("EntityDb.Entities.PhieuThuTien", b =>
+                {
+                    b.HasOne("EntityDb.Entities.DocGia", "DocGia")
+                        .WithMany("PhieuThuTien")
+                        .HasForeignKey("MaDocGia")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("EntityDb.Entities.Sach", b =>
                 {
-                    b.HasOne("EntityDb.Entities.PhieuMuaSach", "PhieuMuonsach")
+                    b.HasOne("EntityDb.Entities.PhieuMuonSach", "PhieuMuonsach")
                         .WithMany("Sach")
                         .HasForeignKey("MaPhieuMuon");
                 });

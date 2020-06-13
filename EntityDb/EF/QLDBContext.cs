@@ -16,7 +16,7 @@ namespace EntityDb.EF
 
         public DbSet<BangCap> BangCap{ get; set; }
         public DbSet<DocGia> DocGia { get; set; }
-        public DbSet<PhieuMuaSach> PhieuMuaSach { get; set; }
+        public DbSet<PhieuMuonSach> PhieuMuonSach { get; set; }
         public DbSet<PhieuThuTien> PhieuThuTien { get; set; }
         public DbSet<Sach> Sach { get; set; }
         public DbSet<NhanVien> NhanViens { get; set; }
@@ -27,7 +27,7 @@ namespace EntityDb.EF
             modelBuilder.ApplyConfiguration(new BangCapConfiguration());
             modelBuilder.ApplyConfiguration(new DocGiaConfiguration());
             modelBuilder.ApplyConfiguration(new NhanVienConfiguration());
-            modelBuilder.ApplyConfiguration(new PhieuMuaSachConfiguration());
+            modelBuilder.ApplyConfiguration(new PhieuMuonSachConfiguration());
             modelBuilder.ApplyConfiguration(new SachConfiguration());
             modelBuilder.ApplyConfiguration(new PhieuThuTienConfiguration());
 

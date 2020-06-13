@@ -16,8 +16,8 @@ namespace EntityDb.Entities
         public DateTime NgayLapThe{ get; set; }
         public DateTime NgayHetHan { get; set; }
         public int Tien { get; set; }
-        public PhieuMuaSach phieuMuaSach { get; set; }
+        public PhieuMuonSach phieuMuaSach { get; set; }
         public int MaPhieuMuon { get; set; }
-
+        public List<PhieuThuTien> PhieuThuTien { get; set; }
     }
 }
