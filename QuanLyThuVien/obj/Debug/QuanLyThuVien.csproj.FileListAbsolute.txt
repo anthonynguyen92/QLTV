@@ -58,3 +58,5 @@ F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb

@@ -28,3 +28,5 @@ F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.dll
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.pdb
+F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.dll
+F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.pdb

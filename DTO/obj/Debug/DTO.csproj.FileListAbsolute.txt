@@ -16,3 +16,9 @@ F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.dll
 F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.pdb
+F:\Chị Nguyệt\QLTV\DTO\bin\Debug\DTO.dll
+F:\Chị Nguyệt\QLTV\DTO\bin\Debug\DTO.pdb
+F:\Chị Nguyệt\QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\DTO\obj\Debug\DTO.dll
+F:\Chị Nguyệt\QLTV\DTO\obj\Debug\DTO.pdb

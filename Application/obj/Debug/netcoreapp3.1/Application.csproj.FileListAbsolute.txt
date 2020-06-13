@@ -2,3 +2,15 @@ F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.c
 F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
 F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netcoreapp3.1\Application.deps.json
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netcoreapp3.1\Application.dll
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netcoreapp3.1\Application.pdb
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netcoreapp3.1\EntityDb.dll
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netcoreapp3.1\EntityDb.pdb
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.dll
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netcoreapp3.1\Application.pdb
