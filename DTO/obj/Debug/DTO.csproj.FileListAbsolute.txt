@@ -1,0 +1,18 @@
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\bin\Debug\DTO.dll
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\bin\Debug\DTO.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\obj\Debug\DTO.dll
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DTO\obj\Debug\DTO.pdb
+D:\LTCSDL\project_QLTV\DTO\bin\Debug\DTO.dll
+D:\LTCSDL\project_QLTV\DTO\bin\Debug\DTO.pdb
+D:\LTCSDL\project_QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\LTCSDL\project_QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\LTCSDL\project_QLTV\DTO\obj\Debug\DTO.dll
+D:\LTCSDL\project_QLTV\DTO\obj\Debug\DTO.pdb
+F:\Chị Nguyệt\project_QLTV\DTO\bin\Debug\DTO.dll
+F:\Chị Nguyệt\project_QLTV\DTO\bin\Debug\DTO.pdb
+F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.dll
+F:\Chị Nguyệt\project_QLTV\DTO\obj\Debug\DTO.pdb

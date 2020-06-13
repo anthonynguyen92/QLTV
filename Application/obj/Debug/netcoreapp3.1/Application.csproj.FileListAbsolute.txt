@@ -1,0 +1,4 @@
+F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+F:\Chị Nguyệt\project_QLTV\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache

@@ -1,0 +1,60 @@
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_NhanVien.resources
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_DocGia.resources
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.MainMenu.resources
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Sach.resources
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_MuonTra.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_DocGia.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_NhanVien.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Sach.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.MainMenu.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Muon.resources
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\BUS.dll
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\DTO.dll
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\DAL.dll
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\BUS.pdb
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\DTO.pdb
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\DAL.pdb
+D:\LTCSDL\project_QLTV\QuanLyThuVien\bin\Debug\DAL.dll.config
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+D:\LTCSDL\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Tra.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\BUS.dll
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\DTO.dll
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\DAL.dll
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\BUS.pdb
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\DTO.pdb
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\DAL.pdb
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\bin\Debug\DAL.dll.config
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_DocGia.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Muon.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_NhanVien.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Sach.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Tra.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.MainMenu.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete

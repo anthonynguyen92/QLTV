@@ -1,0 +1,30 @@
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\bin\Debug\DAL.dll
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\bin\Debug\DAL.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\obj\Debug\DAL.dll
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\obj\Debug\DAL.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\bin\Debug\DAL.dll.config
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\bin\Debug\DTO.dll
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\bin\Debug\DTO.pdb
+C:\Users\ASUS\Desktop\Document_Des\Lap-trinh-csdl\project_QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\LTCSDL\project_QLTV\DAL\bin\Debug\DAL.dll.config
+D:\LTCSDL\project_QLTV\DAL\bin\Debug\DAL.dll
+D:\LTCSDL\project_QLTV\DAL\bin\Debug\DAL.pdb
+D:\LTCSDL\project_QLTV\DAL\bin\Debug\DTO.dll
+D:\LTCSDL\project_QLTV\DAL\bin\Debug\DTO.pdb
+D:\LTCSDL\project_QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\LTCSDL\project_QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\LTCSDL\project_QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\LTCSDL\project_QLTV\DAL\obj\Debug\DAL.dll
+D:\LTCSDL\project_QLTV\DAL\obj\Debug\DAL.pdb
+F:\Chị Nguyệt\project_QLTV\DAL\bin\Debug\DAL.dll.config
+F:\Chị Nguyệt\project_QLTV\DAL\bin\Debug\DAL.dll
+F:\Chị Nguyệt\project_QLTV\DAL\bin\Debug\DAL.pdb
+F:\Chị Nguyệt\project_QLTV\DAL\bin\Debug\DTO.dll
+F:\Chị Nguyệt\project_QLTV\DAL\bin\Debug\DTO.pdb
+F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.dll
+F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.pdb
