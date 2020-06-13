@@ -5148,11 +5148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj",
+      "projectUniqueName": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj",
       "projectName": "EntityDb",
-      "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj",
+      "projectPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj",
       "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-      "outputPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\obj\\",
+      "outputPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5230,5 +5230,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Chị Nguyệt\\QLTV\\EntityDb\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }

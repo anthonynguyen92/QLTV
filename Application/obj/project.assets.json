@@ -5095,11 +5095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj",
+      "projectPath": "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-      "outputPath": "F:\\Chị Nguyệt\\project_QLTV\\Application\\obj\\",
+      "outputPath": "F:\\Chị Nguyệt\\QLTV\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5115,8 +5115,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj": {
-              "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj"
+            "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj": {
+              "projectPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj"
             }
           }
         }
@@ -5147,5 +5147,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Chị Nguyệt\\QLTV\\Application\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }

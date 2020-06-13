@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj": {}
+    "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj": {}
   },
   "projects": {
-    "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj": {
+    "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj",
+        "projectUniqueName": "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj",
+        "projectPath": "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "F:\\Chị Nguyệt\\project_QLTV\\Application\\obj\\",
+        "outputPath": "F:\\Chị Nguyệt\\QLTV\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj": {
-                "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj"
+              "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj": {
+                "projectPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj": {
+    "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj",
+        "projectUniqueName": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj",
         "projectName": "EntityDb",
-        "projectPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj",
+        "projectPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\obj\\",
+        "outputPath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config",

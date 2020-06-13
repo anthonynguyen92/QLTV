@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8og/+04Chx0sueWkxrp0D2i2AMojPZSv5eY4ogaZBVBYSfHkLEd82BgNFgz9N7Gk1TfGFROdLUdrC91T4AX7Q==",
+  "dgSpecHash": "DW2Lxza1PJBim9X3JCzGzozCKO08l8HAI9M8CVUloCnKt1HBHsWJ6j3LTAlqg7E6lNRnHT0MBqXjTzoYRswPJQ==",
   "success": true,
-  "projectFilePath": "F:\\Chị Nguyệt\\project_QLTV\\Application\\Application.csproj",
+  "projectFilePath": "F:\\Chị Nguyệt\\QLTV\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thang\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -96,5 +96,12 @@
     "C:\\Users\\thang\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Chị Nguyệt\\QLTV\\Application\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }

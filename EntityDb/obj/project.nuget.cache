@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mfgVBeU3L0pQW0Ne9uwFkn/b+RjvZp8tbEfMZk8Olyv/wC82fbNH4a1kMDWOQpdg72C9VbgSc3+0zeGxAMtBKw==",
+  "dgSpecHash": "EXPSEReJX7JLXeFb2ImURlSbekZlk1HMjSUZxlDJpBJAcwSqfEK/qo3krxPtxQcprdRL0I+il96tyvRwPhfDsg==",
   "success": true,
-  "projectFilePath": "F:\\Chị Nguyệt\\project_QLTV\\EntityDb\\EntityDb.csproj",
+  "projectFilePath": "F:\\Chị Nguyệt\\QLTV\\EntityDb\\EntityDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thang\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -98,5 +98,12 @@
     "C:\\Users\\thang\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Chị Nguyệt\\QLTV\\EntityDb\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }
