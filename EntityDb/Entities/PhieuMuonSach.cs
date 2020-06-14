@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using EntityDb.Configuration;
+using System.Collections.Generic;
 
 namespace EntityDb.Entities
 {
@@ -7,8 +8,7 @@ namespace EntityDb.Entities
         public int MaPhieuMuon { get; set; }
         public string NgayMuon { get; set; }
         public string NgayTra { get; set; }
-        public List<Sach> Sach{ get; set; }
-        public string? MaSach { get; set; }
+        public List<ChiTietPhieuMuon> chiTietPhieuMuon { get; set; }
         public List<DocGia> DocGia { get; set; }
         public int MaDocGia { get; set; }
     }

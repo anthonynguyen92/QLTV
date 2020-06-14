@@ -10,15 +10,3 @@ F:\Chị Nguyệt\project_QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.csproj.
 F:\Chị Nguyệt\project_QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.pdb
 F:\Chị Nguyệt\project_QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.dll
 F:\Chị Nguyệt\project_QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.pdb
-F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.deps.json
-F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.runtimeconfig.json
-F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.runtimeconfig.dev.json
-F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.dll
-F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netcoreapp3.1\EntityDb.pdb
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.csprojAssemblyReference.cache
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.AssemblyInfoInputs.cache
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.AssemblyInfo.cs
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.csproj.CoreCompileInputs.cache
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.dll
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.pdb
-F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netcoreapp3.1\EntityDb.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netstandard2.0\Application.deps.json
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netstandard2.0\Application.dll
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netstandard2.0\Application.pdb
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netstandard2.0\EntityDb.dll
+F:\Chị Nguyệt\QLTV\Application\bin\Debug\netstandard2.0\EntityDb.pdb
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.dll
+F:\Chị Nguyệt\QLTV\Application\obj\Debug\netstandard2.0\Application.pdb

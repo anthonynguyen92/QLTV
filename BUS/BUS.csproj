@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\QuanLyThuVien\packages\AutoMapper.9.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,17 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS_BangCap.cs" />
-    <Compile Include="BUS_ChiTietPhieuMuon.cs" />
-    <Compile Include="BUS_DocGia.cs" />
-    <Compile Include="BUS_NhanVien.cs" />
-    <Compile Include="BUS_PhieuMuonSach.cs" />
-    <Compile Include="BUS_PhieuThuTien.cs" />
-    <Compile Include="BUS_Sach.cs" />
-    <Compile Include="BUS_Tra.cs" />
+    <Compile Include="BangCapService\BUS_BangCap.cs" />
+    <Compile Include="ChiTietPhieuMuonService\BUS_ChiTietPhieuMuon.cs" />
+    <Compile Include="DocGiaService\BUS_DocGia.cs" />
+    <Compile Include="NhanVienService\BUS_NhanVien.cs" />
+    <Compile Include="NhanVienService\IBUS_NhanVien.cs" />
+    <Compile Include="PhieuMuonSachService\BUS_PhieuMuonSach.cs" />
+    <Compile Include="PhieuThuTienService\BUS_PhieuThuTien.cs" />
+    <Compile Include="PhieuThuTienService\IBUS_PhieuThuTien.cs" />
+    <Compile Include="SachService\BUS_Sach.cs" />
+    <Compile Include="TraSachService\BUS_Tra.cs" />
+    <Compile Include="ChiTietPhieuMuonService\IBUS_ChiTietPhieuMuon.cs" />
+    <Compile Include="DocGiaService\IBUS_DocGia.cs" />
+    <Compile Include="DTO\ChiTietPhieuMuonDTO.cs" />
+    <Compile Include="DTO\DocGiaDTO.cs" />
+    <Compile Include="DTO\NhanVienDTO.cs" />
+    <Compile Include="DTO\PhieuMuonSachDTO.cs" />
+    <Compile Include="DTO\PhieuThuTienDTO.cs" />
+    <Compile Include="DTO\SachDTO.cs" />
+    <Compile Include="PhieuMuonSachService\IBUS_PhieuMuonSach.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BangCapService\IBUS_BangCap.cs" />
+    <Compile Include="SachService\IBUS_Sach.cs" />
+    <Compile Include="TraSachService\IBUS_Tra.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj">
+      <Project>{74dd1805-28e8-41c6-9379-994b8d656077}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{2a541fb6-a5df-4785-8b73-b23224da63f2}</Project>
       <Name>DAL</Name>
@@ -60,6 +81,14 @@
       <Project>{795c4fe3-0a78-4ee0-b352-cbe111edc2ca}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EntityDb\EntityDb.csproj">
+      <Project>{85B72F3A-8838-41D0-87D2-10BE83C6D158}</Project>
+      <Name>EntityDb</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

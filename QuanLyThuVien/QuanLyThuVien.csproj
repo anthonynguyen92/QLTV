@@ -129,6 +129,10 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj">
+      <Project>{74dd1805-28e8-41c6-9379-994b8d656077}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BUS\BUS.csproj">
       <Project>{c3a3316a-ed66-453c-9ec2-12ac46427635}</Project>
       <Name>BUS</Name>

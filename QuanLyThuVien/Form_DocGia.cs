@@ -1,33 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using BUS.BangCapService;
+using BUS.ChiTietPhieuMuonService;
+using BUS.DocGiaService;
+using BUS.DTO;
+using BUS.NhanVienService;
+using BUS.PhieuMuonSachService;
+using BUS.PhieuThuTienService;
+using BUS.SachService;
+using BUS.TraSachService;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Data;
-using BUS;
-using DTO;
+
 
 namespace QuanLyThuVien
 {
     public partial class Form_DocGia : Form
     {
-        public Form_DocGia()
+        private readonly IBUS_BangCap _bangcap;
+        private readonly IBUS_ChiTietPhieuMuon _chitietphieumuon;
+        private readonly IBUS_DocGia _docgia;
+        private readonly IBUS_NhanVien _nhanvien;
+        private readonly IBUS_PhieuMuonSach _phieumuonsach;
+        private readonly IBUS_PhieuThuTien _phieuthutien;
+        private readonly IBUS_Sach _sach;
+        private readonly IBUS_Tra _tra;
+
+        public Form_DocGia(IBUS_DocGia docgia, IBUS_ChiTietPhieuMuon chitietphieumuon, IBUS_BangCap bangcap, IBUS_NhanVien nhanvien,
+            IBUS_PhieuMuonSach phieumuonsach, IBUS_PhieuThuTien phieuthutien, IBUS_Sach sach, IBUS_Tra tra)
         {
             InitializeComponent();
+            _docgia = docgia;
+            _chitietphieumuon = chitietphieumuon;
+            _bangcap = bangcap;
+            _nhanvien = nhanvien;
+            _phieumuonsach = phieumuonsach;
+            _phieuthutien = phieuthutien;
+            _sach = sach;
+            _tra = tra;
         }
-
-        SqlConnection sqlConn;
-
-        BUS_DocGia bus_DocGia = new BUS_DocGia();
 
         void loadLV()
         {
-            DataTable dt = bus_DocGia.Get_DocGia();
+            DataTable dt = _docgia.Get_DocGia();
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 ListViewItem lv = new ListViewItem(dt.Rows[i]["MaDocGia"].ToString());
@@ -56,9 +70,10 @@ namespace QuanLyThuVien
 
         private void BtnThem_Click(object sender, EventArgs e)
         {
-            DocGia DocGia = new DocGia(txtHoTen.Text, dateNgaySinh.Value.ToShortDateString(), txtDiaChi.Text, txtEmail.Text, dateNgayLap.Value.ToShortDateString(), dateNgayHet.Value.ToShortDateString(), txtTienNo.Text);
+            DocGiaDTO DocGia = new DocGiaDTO(9, txtHoTen.Text, dateNgaySinh.Value,
+                txtDiaChi.Text, txtEmail.Text, dateNgayLap.Value, dateNgayHet.Value, Int32.Parse(txtTienNo.Text));
 
-            if (bus_DocGia.Them(DocGia))
+            if (_docgia.Them(DocGia) > 0)
             {
                 MessageBox.Show("Thêm thành công!");
             }
@@ -102,8 +117,9 @@ namespace QuanLyThuVien
         {
             if (listV.SelectedItems.Count > 0)
             {
-                DocGia DocGia = new DocGia(txtHoTen.Text, dateNgaySinh.Value.ToShortDateString(), txtDiaChi.Text, txtEmail.Text, dateNgayLap.Value.ToShortDateString(), dateNgayHet.Value.ToShortDateString(), txtTienNo.Text);
-                bus_DocGia.Sua(DocGia, listV.SelectedItems[0].SubItems[0].Text);
+                DocGiaDTO DocGia = new DocGiaDTO(Int32.Parse(listV.SelectedItems[0].SubItems[0].Text), txtHoTen.Text, dateNgaySinh.Value,
+                    txtDiaChi.Text, txtEmail.Text, dateNgayLap.Value, dateNgayHet.Value, Int32.Parse(txtTienNo.Text));
+                _docgia.Sua(DocGia, listV.SelectedItems[0].SubItems[0].Text);
 
                 listV.Items.Clear();
                 loadLV();
@@ -121,7 +137,7 @@ namespace QuanLyThuVien
                 DialogResult dr = MessageBox.Show("Có chắc xóa không?", "Xóa nhân viên", MessageBoxButtons.YesNo);
                 if (dr == DialogResult.Yes)
                 {
-                    if (bus_DocGia.Xoa(listV.SelectedItems[0].SubItems[0].Text))
+                    if (_docgia.Xoa(listV.SelectedItems[0].SubItems[0].Text) > 0)
                     {
                         MessageBox.Show("Xóa thành công!");
                     }
@@ -162,7 +178,7 @@ namespace QuanLyThuVien
         }
         private void quảnLýĐộcGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form_DocGia dg = new Form_DocGia();
+            Form_DocGia dg = new Form_DocGia(_docgia,_chitietphieumuon,_bangcap,_nhanvien,_phieumuonsach,_phieuthutien,_sach,_tra);
             dg.Show();
             this.Dispose(false);
         }

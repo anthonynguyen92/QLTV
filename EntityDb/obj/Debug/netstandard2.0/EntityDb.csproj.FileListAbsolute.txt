@@ -1,0 +1,9 @@
+F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netstandard2.0\EntityDb.deps.json
+F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netstandard2.0\EntityDb.dll
+F:\Chị Nguyệt\QLTV\EntityDb\bin\Debug\netstandard2.0\EntityDb.pdb
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.AssemblyInfoInputs.cache
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.AssemblyInfo.cs
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.dll
+F:\Chị Nguyệt\QLTV\EntityDb\obj\Debug\netstandard2.0\EntityDb.pdb

@@ -37,6 +37,21 @@ namespace EntityDb.Migrations
                     b.ToTable("BangCap");
                 });
 
+            modelBuilder.Entity("EntityDb.Entities.ChiTietPhieuMuon", b =>
+                {
+                    b.Property<int>("MaPhieuMuon")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MaSach")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("MaPhieuMuon", "MaSach");
+
+                    b.HasIndex("MaSach");
+
+                    b.ToTable("ChiTietPhieuMuon");
+                });
+
             modelBuilder.Entity("EntityDb.Entities.DocGia", b =>
                 {
                     b.Property<int>("MaDocGia")
@@ -56,13 +71,13 @@ namespace EntityDb.Migrations
                     b.Property<int>("MaPhieuMuon")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("NgayHetHan")
+                    b.Property<DateTime?>("NgayHetHan")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("NgayLapThe")
+                    b.Property<DateTime?>("NgayLapThe")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("NgaySinh")
+                    b.Property<DateTime?>("NgaySinh")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Tien")
@@ -112,9 +127,6 @@ namespace EntityDb.Migrations
                     b.Property<int>("MaDocGia")
                         .HasColumnType("int");
 
-                    b.Property<string>("MaSach")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("NgayMuon")
                         .HasColumnType("nvarchar(max)");
 
@@ -157,9 +169,6 @@ namespace EntityDb.Migrations
                     b.Property<string>("MaSach")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int?>("MaPhieuMuon")
-                        .HasColumnType("int");
-
                     b.Property<string>("NamXuatBan")
                         .HasColumnType("nvarchar(max)");
 
@@ -180,8 +189,6 @@ namespace EntityDb.Migrations
 
                     b.HasKey("MaSach");
 
-                    b.HasIndex("MaPhieuMuon");
-
                     b.ToTable("Sach");
                 });
 
@@ -190,6 +197,21 @@ namespace EntityDb.Migrations
                     b.HasOne("EntityDb.Entities.NhanVien", null)
                         .WithMany("Bangcaps")
                         .HasForeignKey("NhanVienMaNhanVien");
+                });
+
+            modelBuilder.Entity("EntityDb.Entities.ChiTietPhieuMuon", b =>
+                {
+                    b.HasOne("EntityDb.Entities.PhieuMuonSach", "PhieuMuonSach")
+                        .WithMany("chiTietPhieuMuon")
+                        .HasForeignKey("MaPhieuMuon")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EntityDb.Entities.Sach", "Sach")
+                        .WithMany("chiTietPhieuMuon")
+                        .HasForeignKey("MaSach")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EntityDb.Entities.DocGia", b =>
@@ -217,13 +239,6 @@ namespace EntityDb.Migrations
                         .HasForeignKey("MaDocGia")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("EntityDb.Entities.Sach", b =>
-                {
-                    b.HasOne("EntityDb.Entities.PhieuMuonSach", "PhieuMuonsach")
-                        .WithMany("Sach")
-                        .HasForeignKey("MaPhieuMuon");
                 });
 #pragma warning restore 612, 618
         }

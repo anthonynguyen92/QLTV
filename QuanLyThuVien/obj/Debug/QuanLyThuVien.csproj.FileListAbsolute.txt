@@ -58,5 +58,13 @@ F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
-F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
-F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_DocGia.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Muon.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_NhanVien.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Sach.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form_Tra.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.MainMenu.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+F:\Chị Nguyệt\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache

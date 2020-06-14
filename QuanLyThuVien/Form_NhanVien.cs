@@ -1,21 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Data;
-using BUS;
+﻿using BUS.BangCapService;
+using BUS.ChiTietPhieuMuonService;
+using BUS.DocGiaService;
+using BUS.NhanVienService;
+using BUS.PhieuMuonSachService;
+using BUS.PhieuThuTienService;
+using BUS.SachService;
+using BUS.TraSachService;
 using DTO;
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace QuanLyThuVien
 {
     public partial class Form_NhanVien : Form
     {
+        private readonly IBUS_BangCap _bangcap;
+        private readonly IBUS_ChiTietPhieuMuon _chitietphieumuon;
+        private readonly IBUS_DocGia _docgia;
+        private readonly IBUS_NhanVien _nhanvien;
+        private readonly IBUS_PhieuMuonSach _phieumuonsach;
+        private readonly IBUS_PhieuThuTien _phieuthutien;
+        private readonly IBUS_Sach _sach;
+        private readonly IBUS_Tra _tra;
         public Form_NhanVien()
         {
             InitializeComponent();
@@ -228,7 +236,7 @@ namespace QuanLyThuVien
                 txtDiaChi.Text = listV.SelectedItems[0].SubItems[3].Text;
                 txtDienThoai.Text = listV.SelectedItems[0].SubItems[4].Text;
                 DataTable dt = bus_BangCap.Get_BangCap();
-                cmbBangCap.Text = dt.Rows[Int32.Parse(listV.SelectedItems[0].SubItems[5].Text)-1][1].ToString();
+                cmbBangCap.Text = dt.Rows[Int32.Parse(listV.SelectedItems[0].SubItems[5].Text) - 1][1].ToString();
             }
         }
 

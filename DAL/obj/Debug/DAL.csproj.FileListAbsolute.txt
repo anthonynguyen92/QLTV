@@ -28,5 +28,15 @@ F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.dll
 F:\Chị Nguyệt\project_QLTV\DAL\obj\Debug\DAL.pdb
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\DAL.dll.config
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\DAL.dll
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\DAL.pdb
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\DTO.dll
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\EntityDb.dll
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\DTO.pdb
+F:\Chị Nguyệt\QLTV\DAL\bin\Debug\EntityDb.pdb
+F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.csproj.CopyComplete
 F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.dll
 F:\Chị Nguyệt\QLTV\DAL\obj\Debug\DAL.pdb

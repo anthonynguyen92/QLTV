@@ -34,5 +34,5 @@ F:\Chị Nguyệt\project_QLTV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 F:\Chị Nguyệt\project_QLTV\BUS\obj\Debug\BUS.csproj.CopyComplete
 F:\Chị Nguyệt\project_QLTV\BUS\obj\Debug\BUS.dll
 F:\Chị Nguyệt\project_QLTV\BUS\obj\Debug\BUS.pdb
-F:\Chị Nguyệt\QLTV\BUS\obj\Debug\BUS.dll
-F:\Chị Nguyệt\QLTV\BUS\obj\Debug\BUS.pdb
+F:\Chị Nguyệt\QLTV\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+F:\Chị Nguyệt\QLTV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache

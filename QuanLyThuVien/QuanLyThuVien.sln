@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "..\BUS\BUS.csproj", "{C3A3316A-ED66-453C-9EC2-12AC46427635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityDb", "..\EntityDb\EntityDb.csproj", "{85B72F3A-8838-41D0-87D2-10BE83C6D158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityDb", "..\EntityDb\EntityDb.csproj", "{85B72F3A-8838-41D0-87D2-10BE83C6D158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\Application\Application.csproj", "{74DD1805-28E8-41C6-9379-994B8D656077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\Application\Application.csproj", "{74DD1805-28E8-41C6-9379-994B8D656077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

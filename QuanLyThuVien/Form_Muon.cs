@@ -1,20 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using BUS.BangCapService;
+using BUS.ChiTietPhieuMuonService;
+using BUS.DocGiaService;
+using BUS.NhanVienService;
+using BUS.PhieuMuonSachService;
+using BUS.PhieuThuTienService;
+using BUS.SachService;
+using BUS.TraSachService;
+using DTO;
+using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using BUS;
-using DTO;
 
 namespace QuanLyThuVien
 {
     public partial class Form_Muon : Form
     {
+
+        private readonly IBUS_BangCap _bangcap;
+        private readonly IBUS_ChiTietPhieuMuon _chitietphieumuon;
+        private readonly IBUS_DocGia _docgia;
+        private readonly IBUS_NhanVien _nhanvien;
+        private readonly IBUS_PhieuMuonSach _phieumuonsach;
+        private readonly IBUS_PhieuThuTien _phieuthutien;
+        private readonly IBUS_Sach _sach;
+        private readonly IBUS_Tra _tra;
+
         SqlConnection sqlConn;
         //String cnStr = @"Data Source=H-Minh;Initial Catalog=QuanLyThuVien;Integrated Security=True";
         BUS_Sach bus_Sach = new BUS_Sach();
@@ -78,10 +89,10 @@ namespace QuanLyThuVien
             }
             check();
         }
-        
+
         private void btnTraSach_Click(object sender, EventArgs e)
         {
-            
+
             if (lvSachMuon.SelectedItems.Count > 0)
             {
                 ListViewItem lv = new ListViewItem(lvSachMuon.SelectedItems[0].SubItems[0].Text);
@@ -96,11 +107,11 @@ namespace QuanLyThuVien
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            PhieuMuonSach phieuMuonSach = new PhieuMuonSach(dateNgayMuon.Value.ToShortDateString(), null,bus_DocGia.Get_MaDocGia(cmbDocGia.SelectedItem.ToString()));
+            PhieuMuonSach phieuMuonSach = new PhieuMuonSach(dateNgayMuon.Value.ToShortDateString(), null, bus_DocGia.Get_MaDocGia(cmbDocGia.SelectedItem.ToString()));
 
             if (bus_PhieuMuonSach.Them(phieuMuonSach))
             {
-                for(int i=0; i < lvSachMuon.Items.Count; i++)
+                for (int i = 0; i < lvSachMuon.Items.Count; i++)
                 {
                     ChiTietPhieuMuon chiTietPhieuMuon = new ChiTietPhieuMuon(Int32.Parse(lvSachMuon.Items[i].SubItems[0].Text), bus_PhieuMuonSach.Get_MaCuoi());
                     //if (bus_ChiTietPhieuMuon.Them(chiTietPhieuMuon)) { }

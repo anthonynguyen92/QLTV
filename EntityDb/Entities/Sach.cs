@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntityDb.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,7 +14,6 @@ namespace EntityDb.Entities
         public string NhaXuatBan { get; set; }
         public string TriGia { get; set; }
         public string NgayNhap { get; set; }
-        public PhieuMuonSach PhieuMuonsach { get; set; }
-        public int? MaPhieuMuon { get; set; }
+        public List<ChiTietPhieuMuon> chiTietPhieuMuon { get; set; }
     }
 }

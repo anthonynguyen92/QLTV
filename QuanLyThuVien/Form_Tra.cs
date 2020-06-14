@@ -9,12 +9,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
+using BUS.BangCapService;
+using BUS.ChiTietPhieuMuonService;
+using BUS.DocGiaService;
+using BUS.NhanVienService;
+using BUS.PhieuMuonSachService;
+using BUS.PhieuThuTienService;
+using BUS.SachService;
+using BUS.TraSachService;
 using DTO;
 
 namespace QuanLyThuVien
 {
     public partial class Form_Tra : Form
     {
+        private readonly IBUS_BangCap _bangcap;
+        private readonly IBUS_ChiTietPhieuMuon _chitietphieumuon;
+        private readonly IBUS_DocGia _docgia;
+        private readonly IBUS_NhanVien _nhanvien;
+        private readonly IBUS_PhieuMuonSach _phieumuonsach;
+        private readonly IBUS_PhieuThuTien _phieuthutien;
+        private readonly IBUS_Sach _sach;
+        private readonly IBUS_Tra _tra;
+
         SqlConnection sqlConn;
         //String cnStr = @"Data Source=H-Minh;Initial Catalog=QuanLyThuVien;Integrated Security=True";
         BUS_Sach bus_Sach = new BUS_Sach();
